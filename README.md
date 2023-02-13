@@ -149,7 +149,11 @@ Below is the plot of mis-classified images while validating on 20th epoch.
 ![Alt text](report/misclassified.png?raw=true "model architecture")
 
 #### GradCAM of mis-classified images
+Below are GradCAM images for 10 mis-classified images. We have captured GradCAM in two different layers
 
+GradCAM at Layer 3                                   | GradCAM at Layer 4
+:---------------------------------------------------:|:--------------------------------------------------:
+![Alt text](report/misclass_grad_3.png?raw=true "")  | ![Alt text](report/misclass_grad_4.png?raw=true "")
 
 ## Conclusion
 

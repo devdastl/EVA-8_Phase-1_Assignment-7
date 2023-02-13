@@ -138,6 +138,17 @@ generating mis-classified images for epoch 19
 Test set: Average loss: 0.3115, Accuracy: 8954/10000 (89.54%)
 ```
 ## Results
+As a result, we will look into generated graphs, mis-classified images and GradCAM of those images.
+
+#### Accuracy-Loss graph
+Below is the image showing Accuracy-loss curve for validation dataset.
+![Alt text](report/graph.png?raw=true "model architecture")
+
+#### Mis-classified images
+Below is the plot of mis-classified images while validating on 20th epoch.
+![Alt text](report/misclassified.png?raw=true "model architecture")
+
+#### GradCAM of mis-classified images
 
 
 ## Conclusion

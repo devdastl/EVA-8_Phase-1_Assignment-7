@@ -142,11 +142,14 @@ As a result, we will look into generated graphs, mis-classified images and GradC
 
 #### Accuracy-Loss graph
 Below is the image showing Accuracy-loss curve for validation dataset.
-![Alt text](report/graph.png?raw=true "model architecture")
+Accuracy-Loss graph for training                     | Accuracy-Loss graph for validation
+:---------------------------------------------------:|:--------------------------------------------------:
+![Alt text](report/graph_train.png?raw=true "")  | ![Alt text](report/graph_eval.png?raw=true "")
 
 #### Mis-classified images
 Below is the plot of mis-classified images while validating on 20th epoch.
-![Alt text](report/misclassified.png?raw=true "model architecture")
+![Alt text](report/misclassified.png?raw=true "")
+
 
 #### GradCAM of mis-classified images
 Below are GradCAM images for 10 mis-classified images. We have captured GradCAM in two different layers
